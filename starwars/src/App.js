@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CharacterList from './components/CharacterList';
 import CharacterCard from "./components/CharacterCard";
+import styled from "styled-components";
 
 
 const App = () => {
@@ -16,12 +17,19 @@ const App = () => {
    
     <div className="App">
 
-      <h1 className="Header">React Wars</h1>
+     <StyledHeader> <h1 className="Header">React Wars</h1>
       <CharacterList/>
        <CharacterCard/>
-
+       </StyledHeader>
     </div>
   );
 }
 
+const StyledHeader = styled.h1`
+
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2rem;
+
+`;
 export default App;
