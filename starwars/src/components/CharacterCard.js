@@ -9,7 +9,7 @@ const StyledCard = styled.div`
   margin-bottom: 2rem;
   width: 800px;
   background: linear-gradient(to right, #108dc7, #ef8e38);
-  color:  "#FF0000"
+  color:  "#FF0000";
   font-size: 1.5rem;
 
   h2 {
